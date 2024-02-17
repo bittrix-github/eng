@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./public/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script type="module" src="./public/js/init.js" defer></script>
+
+    <title>Taxa de Ocupação Máxima</title>
+    <link rel="icon" href="/public/favico.ico">
+</head>
+
+<body>
+    <header></header>
+
+    <nav></nav>
+
+    <main>
+        <h1>Calculadora de vias para cabos</h1>
+        <h2>(segundo o critério de taxa de ocupação máxima de 40%)</h2>
+    
+        <section>
+            <h3>Adicione os cabos - e suas quantidades - conduzidos em um mesmo duto</h3>
+            <ul class="CableCardContainer"></ul>
+        </section>
+        
+        <article class="DuctCardContainer">            
+            <div class="CableCard DuctCard">
+                <h4>Eletroduto</h4>
+                <div class="ResultsContainer">
+                    <div class="CableItems">
+
+                    </div>
+                    <div class="DuctItem">
+                        <h5>Recomendado:</h5>
+                        <div class="MinimumDuct"></div>
+                        <div class="Percentage"></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer></footer>
+</body>
+</html>
